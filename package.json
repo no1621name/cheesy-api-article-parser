@@ -1,0 +1,33 @@
+{
+  "name": "cheesy-api-article-parser",
+  "version": "0.0.1",
+  "description": "Parser for articles and recipes from cheesy-api",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc --watch"
+  },
+  "keywords": [
+    "cheesy-api"
+  ],
+  "exports": "./dist/index.js",
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "types.d.ts",
+  "author": "no1621name",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheesy-api": "file:../cheesy-api-types",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.25.0",
+    "typescript": "^4.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/no1621name/cheesy-api-article-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/no1621name/cheesy-api-article-parser/issues"
+  }
+}
