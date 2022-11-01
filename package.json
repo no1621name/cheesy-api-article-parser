@@ -1,6 +1,6 @@
 {
   "name": "cheesy-api-article-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parser for articles and recipes from cheesy-api",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,8 @@
   "module": "./dist/index.js",
   "types": "types.d.ts",
   "author": "no1621name",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@types/cheesy-api": "file:../cheesy-api-types",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.25.0",
