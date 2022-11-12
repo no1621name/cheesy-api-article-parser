@@ -1,27 +1,6 @@
 /* eslint-disable no-unused-vars */
-// TODO 
-/* /// <reference types="cheesyapi" /> */
-
-//
-interface Article {
-  _id: number;
-  title: string;
-  description: string;
-  preview: string;
-  content: string;
-  category_id: number; // RecipeCategory
-  date: Date;
-  productLists: Array<{
-    title: string;
-    products: Array<{
-      name: string;
-      category_id: number;
-    }>;
-  }>;
-  images: string[][];
-  accordions: string[];
-  numberedLists: string[][];
-}//
+// TODO
+/// <reference types="cheesy-api-types-package" />
 
 type FieldsForParse = Pick<Article, 'productLists' | 'numberedLists' | 'images' | 'accordions'>;
 
